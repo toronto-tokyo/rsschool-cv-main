@@ -40,3 +40,17 @@ English  | 	A2+
 
 * CV RS School
 * Travel
+
+
+## Work experience
+---
+* okt 2020 - jul 2021 :Hilti - Warehouse logistics assistant
+* jul 2021 - aug 2022 :APS - Transport Specialist
+
+
+## My Education
+---
+* Study period - 2017-2021
+* University - BSEU
+* Qualification - Logistics economist
+* Average score - 7.7
