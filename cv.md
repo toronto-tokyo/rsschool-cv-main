@@ -16,3 +16,27 @@ At the moment I have no experience in IT, however, if you need a specialist who 
 * e-mail cacatubutyt@gmail.com
 * VK
 * DS rss-server @toronto-tokyo
+
+
+## My Skills
+---
+
+
+### Hard Skills
+
+* HTML5 - basic
+* CSS3 - basic
+* Git - basic
+
+
+### Foreign languages
+
+Language | 	Level
+---------|:-------:
+English  | 	A2+
+
+
+## Projects
+
+* CV RS School
+* Travel
