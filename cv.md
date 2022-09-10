@@ -54,3 +54,12 @@ English  | 	A2+
 * University - BSEU
 * Qualification - Logistics economist
 * Average score - 7.7
+
+
+## Code example
+
+```
+function multiply(a,b) {
+    return a * b
+}
+```
