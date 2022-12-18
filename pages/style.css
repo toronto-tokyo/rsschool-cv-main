@@ -83,6 +83,7 @@ color: #595a5a;
 
 .about-myself__photo{
   max-width: 400px;
+  min-width: 250px;
 }
 
 .about-myself__photo img{
@@ -358,6 +359,33 @@ th, td {
 .code{
   color: #292d2d;
   margin-bottom: 40px;
+}
+
+footer{
+  background-color: rgb(244, 214, 68);
+}
+
+.footer_wrap{
+  display: flex;
+  padding: 30px 0px 30px 80px;
+  align-items: center;
+}
+
+.footer_wrap div{
+  flex: 1 1 33.33%;
+}
+
+.logo img{
+  max-width: 200px;
+}
+
+.date{
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 30px 0px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 
