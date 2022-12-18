@@ -67,3 +67,139 @@ body {
 color: #595a5a;
 }
 
+.about-myself__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-myself_relative{
+  position: relative;
+}
+
+.about-myself__photo{
+  max-width: 400px;
+}
+
+.about-myself__photo img{
+  width: 100%;
+}
+
+
+.about-myself__info{
+  padding: 30px 80px 0px 40px;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.about-myself__info .h2{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+h2{
+  color: #292d2d;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.h2_hr{
+flex: 1 1 auto;
+}
+
+.h2_hr__hr{
+  border-bottom: 2px solid black;
+  height: 50%;
+}
+
+
+.about-myself__info p{
+  text-align:justify;
+  font-size: 16px;
+}
+
+.about-myself__row_yellow{
+  background-color: rgba(244, 214, 68, 0.9);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.about-myself__self-data{
+  flex: 1 1 auto;
+  padding: 36px 0px 0px 110px;
+  color: #292d2d;
+}
+
+h1{
+  font-size: 43px;
+  font-weight: 700;
+}
+
+.about-myself__self-data p{
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.contacts{
+  margin-right: 80px;
+  background:#fcfcfc;
+  padding: 0px 70px 0px 50px;
+}
+
+.bold{
+  font-weight: 700;
+  color: black;
+}
+
+.contacts ul li{
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.contacts ul li:nth-child(1)::before{
+  content: '';
+  background-image: url(../assets/icon/phone.png);
+  background-size: contain;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -35px;
+}
+
+.contacts ul li:nth-child(2)::before{
+  content: '';
+  background-image: url(../assets/icon/email.png);
+  background-size: contain;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -35px;
+}
+
+.contacts ul li:nth-child(3)::before{
+  content: '';
+  background-image: url(../assets/icon/VK-icon.png);
+  background-size: contain;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -35px;
+}
+
+.contacts ul li:nth-child(4)::before{
+  content: '';
+  background-image: url(../assets/icon/DS.png);
+  background-size: contain;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: -35px;
+}
+
