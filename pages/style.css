@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+  font-family: 'Comfortaa', cursive;
+  color: #595a5a;
+  padding: 15px 15px 15px 15px;  
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0px 0px 10px 5px rgb(214, 214, 214);
+  padding-top: 10px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation nav ul li{
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 1px 8px 1px 18px;
+}
+
+.navigation nav ul li a{
+color: #595a5a;
+}
+
+.navigation nav ul li a:hover{
+  color: black;
+}
+
+.about-myself__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-myself_relative{
+  position: relative;
+}
+
+.about-myself__photo{
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.about-myself__photo img{
+  width: 100%;
+}
+
+
+.about-myself__info{
+  padding: 30px 80px 0px 40px;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.about-myself__info .h2{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+h2{
+  color: #292d2d;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.h2_hr{
+flex: 1 1 auto;
+}
+
+.h2_hr__hr{
+  border-bottom: 3px solid black;
+  height: 50%;
+}
+
+
+.about-myself__info p{
+  text-align:justify;
+  font-size: 16px;
+}
+
+.about-myself__row_yellow{
+  background-color: rgba(244, 214, 68, 0.9);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.about-myself__self-data{
+  flex: 1 1 auto;
+  padding: 36px 0px 0px 110px;
+  color: #292d2d;
+}
+
+h1{
+  font-size: 43px;
+  font-weight: 700;
+}
+
+.about-myself__self-data p{
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.contacts{
+  margin-right: 80px;
+  background:#fcfcfc;
+  padding: 0px 70px 0px 50px;
+}
+
+.bold{
+  font-weight: 700;
+  color: black;
+}
+
+.contacts ul li{
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.contacts ul li:nth-child(1)::before{
+  content: '';
+  background-image: url(../assets/icon/phone.png);
+  background-size: contain;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -35px;
+}
+
+.contacts ul li:nth-child(2)::before{
+  content: '';
+  background-image: url(../assets/icon/email.png);
+  background-size: contain;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -35px;
+}
+
+.contacts ul li:nth-child(3)::before{
+  content: '';
+  background-image: url(../assets/icon/VK-icon.png);
+  background-size: contain;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: -35px;
+}
+
+.contacts ul li:nth-child(4)::before{
+  content: '';
+  background-image: url(../assets/icon/DS.png);
+  background-size: contain;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: -35px;
+}
+
+.skills-work-wrap{
+  display: flex;
+}
+
+.skills{
+  flex: 0 1 400px;
+  background-color: #292d2d;
+  padding: 55px 0px 0px 110px;
+}
+
+.skills h2 {
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.skills h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.skills_list{
+  margin-bottom: 65px;
+}
+
+.skills_list li{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #a6a6a6;
+  position: relative;
+  padding-left: 15px;
+}
+
+.skills_list li::before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #a6a6a6;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+
+table{
+  font-size: 20px;
+  color: #a6a6a6;
+  margin-bottom: 70px;  
+}
+
+th, td {
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.skills ul li a {
+  color: #a6a6a6;
+}
+
+.skills ul li{
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.skills ul li::before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #a6a6a6;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+
+.skills ul li a:hover{
+  color: #ffffff;
+}
+
+.education{
+  flex: 0 1 600px;
+  padding: 55px 80px 0px 40px;
+}
+
+.h2_exp{
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.education__row{
+  display: flex;
+}
+
+.period{
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #292d2d;
+  flex: 0 1 140px;
+}
+
+.education__name{
+  color: #292d2d;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 30px;
+}
+
+.education__name::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.work__info{
+  font-size: 20px;
+  position: relative;
+  padding-left: 20px;
+  padding: 20px 0px 20px 30px;
+}
+
+.work__info::before{
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top:0px;
+  left: 9px;
+}
+
+.work, .university{
+  margin-bottom: 25px;
+}
+
+.code{
+  color: #292d2d;
+  margin-bottom: 40px;
+}
+
+footer{
+  background-color: rgb(244, 214, 68);
+}
+
+.footer_wrap{
+  display: flex;
+  padding: 30px 0px 30px 80px;
+  align-items: center;
+}
+
+.footer_wrap div{
+  flex: 1 1 33.33%;
+}
+
+.logo img{
+  max-width: 200px;
+}
+
+.date{
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 30px 0px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
